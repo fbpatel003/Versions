@@ -1,6 +1,30 @@
 .firstPage{
     height: 100vh;
-    background: linear-gradient(35deg, rgba(2,0,36,1) 0%, rgba(201,146,255,1) 0%, rgba(158,155,255,1) 50%, rgba(105,229,255,1) 100%);
+    background: transparent;
+}
+
+.firstPage::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(132,81,235,1) 0%, rgba(46,106,200,1) 50%, rgba(22,211,251,1) 100%);
+    background-size: 100% 120%;
+    transform: rotate(-10deg) scale(1.2);
+    z-index: -1;
+    -webkit-transform: rotate(-5deg) scale(1.2);
+    -moz-transform: rotate(-10deg) scale(1.2);
+    -ms-transform: rotate(-10deg) scale(1.2);
+    -o-transform: rotate(-10deg) scale(1.2);
+}
+
+
+.FPSVG{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5vw;
+    fill: #f3f3fb;
 }
 
 .custom-nav{
@@ -62,7 +86,31 @@
 
 .secondPage{
     height: 110vh;
+    background: transparent;
+    margin-top: 50px;
+}
+
+.secondPage::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
     background-color: #f3f3fb;
+    background-size: 100% 120%;
+    transform: rotate(-10deg) scale(1.2);
+    z-index: -1;
+    -webkit-transform: rotate(-5deg) scale(1.2);
+    -moz-transform: rotate(-10deg) scale(1.2);
+    -ms-transform: rotate(-10deg) scale(1.2);
+    -o-transform: rotate(-10deg) scale(1.2);
+}
+
+.SPSVG{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 5vw;
+    fill: #ffffff;
 }
 
 .featureBox{
@@ -76,28 +124,83 @@
 
 .thirdPage{
     height: 100vh;
-    margin-top: 50px;
+    margin-top: 100px;
+}
+
+.thirdPage::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    background-size: 100% 120%;
+    transform: rotate(-10deg) scale(1.2);
+    z-index: -1;
+    -webkit-transform: rotate(-5deg) scale(1.2);
+    -moz-transform: rotate(-10deg) scale(1.2);
+    -ms-transform: rotate(-10deg) scale(1.2);
+    -o-transform: rotate(-10deg) scale(1.2);
 }
 
 .fourthPage{
     height: 100vh;
+    margin-top: 150px;
+}
+
+.fourthPage::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
     background-color: #f3f3fb;
-    padding-top: 100px;
+    background-size: 100% 120%;
+    transform: rotate(-10deg) scale(1.2);
+    z-index: -1;
+    -webkit-transform: rotate(-5deg) scale(1.2);
+    -moz-transform: rotate(-10deg) scale(1.2);
+    -ms-transform: rotate(-10deg) scale(1.2);
+    -o-transform: rotate(-10deg) scale(1.2);
 }
 
 .fifthPage{
     height: 100vh;
-    padding-top: 100px;
     text-align: center;
-    width: 60%;
-    margin: auto;
+    margin-top: 100px;
+}
+
+.fifthPage::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    background-size: 100% 120%;
+    transform: rotate(-10deg) scale(1.2);
+    z-index: -1;
+    -webkit-transform: rotate(-5deg) scale(1.2);
+    -moz-transform: rotate(-10deg) scale(1.2);
+    -ms-transform: rotate(-10deg) scale(1.2);
+    -o-transform: rotate(-10deg) scale(1.2);
 }
 
 .sixthPage{
-    background-color: #f3f3fb;
     height: 100vh;
-    padding-top: 50px;
-    text-align: center;
+    margin-top: 100px;
+}
+
+.sixthPage::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #f3f3fb;
+    background-size: 100% 120%;
+    transform: rotate(-10deg) scale(1.2);
+    z-index: -1;
+    -webkit-transform: rotate(-5deg) scale(1.2);
+    -moz-transform: rotate(-10deg) scale(1.2);
+    -ms-transform: rotate(-10deg) scale(1.2);
+    -o-transform: rotate(-10deg) scale(1.2);
 }
 
 .planBox{
@@ -107,7 +210,6 @@
     margin-top: 100px;
     padding: 3%;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-    /* height: 100px; */
 }
 
 .planBox:hover{
@@ -116,14 +218,42 @@
 
 .seventhPage{
     height: 100vh;
-    padding-top: 50px;
-    text-align: center;
+    margin-top: 100px;
+    overflow: hidden;
+}
+
+.seventhPage::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    background-size: 100% 120%;
+    transform: rotate(-10deg) scale(1.2);
+    z-index: -1;
+    -webkit-transform: rotate(-5deg) scale(1.2);
+    -moz-transform: rotate(-10deg) scale(1.2);
+    -ms-transform: rotate(-10deg) scale(1.2);
+    -o-transform: rotate(-10deg) scale(1.2);
 }
 
 .eighthPage{
     height: 100vh;
-    padding-top: 50px;
-    background: linear-gradient(35deg, rgba(2,0,36,1) 0%, rgba(201,146,255,1) 0%, rgba(158,155,255,1) 50%, rgba(105,229,255,1) 100%);
+}
+
+.eighthPage::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(2,0,36,1) 0%, rgba(132,81,235,1) 0%, rgba(46,106,200,1) 50%, rgba(22,211,251,1) 100%);
+    background-size: 100% 120%;
+    transform: rotate(-10deg) scale(1.2);
+    z-index: -1;
+    -webkit-transform: rotate(-5deg) scale(1.2);
+    -moz-transform: rotate(-10deg) scale(1.2);
+    -ms-transform: rotate(-10deg) scale(1.2);
+    -o-transform: rotate(-10deg) scale(1.2);
 }
 
 .fly-2{
@@ -135,6 +265,52 @@
 }
 
 .ninthPage{
+    padding-top: 100px;
     height: 200px;
     text-align: center;
 }
+
+body{
+    width: 100vw;
+}
+
+.accordion-button::after {
+	background-image: url("./images/plus.svg");
+}
+.accordion-button:not(.collapsed)::after {
+	background-image: url("./images/dash-lg.svg");
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+  }
+  ::-webkit-scrollbar-button {
+    width: 5px;
+    height: 5px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #297bff;
+    border: 0px none #ffffff;
+    border-radius: 100px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #8ac2ff;
+  }
+  ::-webkit-scrollbar-thumb:active {
+    background: #a3a3a3;
+  }
+  ::-webkit-scrollbar-track {
+    background: #002375;
+    border: 0px none #ffffff;
+    border-radius: 100px;
+  }
+  ::-webkit-scrollbar-track:hover {
+    background: #00558a;
+  }
+  ::-webkit-scrollbar-track:active {
+    background: #333333;
+  }
+  ::-webkit-scrollbar-corner {
+    background: transparent;
+  }
